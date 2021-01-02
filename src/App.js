@@ -1,7 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
+import DatePicker from "./component/DatePicker";
 
 function App() {
-	return <div className="App"></div>;
+	return (
+		<div>
+			<DatePicker />
+		</div>
+	);
 }
 
 export default App;
